@@ -4401,11 +4401,11 @@ select:focus {
 }
 
 .theme-light .text-block p:not(.lead) {
-  color: #d0d6b8;
+  color: #f8faf5;
 }
 
 .theme-light .text-block ul:not(.btns) li {
-  color: #d0d6b8;
+  color: #f8faf5;
 }
 
 /** 08.0 - TOKEN SECTION */
