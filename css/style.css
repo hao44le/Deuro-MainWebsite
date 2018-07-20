@@ -442,6 +442,20 @@ width: 100%;
     z-index: 500;
 }
 
+.direction{
+      width: 100%;
+    float: none;
+    padding: 0;
+    text-align: left;
+  margin-top: -5%;
+}
+.strategy{
+      width: 100%;
+    float: none;
+    padding: 0;
+    text-align: left;
+  margin-top: -5%;
+}
 .design{
       width: 100%;
     float: none;
@@ -449,18 +463,14 @@ width: 100%;
     text-align: left;
   margin-top: -5%;
 }
-.direction{
-width: 100%;
+.autonomy{
+      width: 100%;
     float: none;
     padding: 0;
     text-align: left;
+  margin-top: -5%;
 }
-.strategy{
-    width: 100%;
-    float: none;
-    padding: 0;
-    text-align: left;
-}
+
 .work {
   width: 100%;
   position: relative;
