@@ -433,13 +433,16 @@ width: 100%;
     text-transform: uppercase;
 }
 .skillz{
-    background: url(../images/wavy.png) top left no-repeat;
+    /* background: url(../images/wavy.png) top left no-repeat; */
     background-size: 200%;
     background-color: #273040ed;
     padding: 11% 7%;
     width: 100%;
     position: relative;
     z-index: 500;
+}
+.bg {
+  background: url(../images/wavy3.png) top left no-repeat;
 }
 
 .direction{
