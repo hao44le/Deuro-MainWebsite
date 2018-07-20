@@ -521,11 +521,11 @@ position: absolute;
 .bannersplatfoot{
   position: absolute;
     top: 60%;
-    left: 50%;
-    margin-left: -185px;
+    left: 60%;
+    margin-left: -175px;
     margin-top: -325px;
-    width: 370px;
-    height: 650px;
+    width: 240px;
+    height: 302.5px;
     z-index: 0;
 }
 .worksplatfoot{
@@ -2094,7 +2094,7 @@ width: 85%;
   position:absolute;
   width: 100%;
   top:134px;
-  left: 0;
+  left: 30px;
   z-index: 100;
 }
 .canada img{
@@ -2610,9 +2610,9 @@ QUERY 650px
 }
 .canada{
   position:absolute;
-  width: 450px;
+  width: 240px;
   top:154px;
-  left: 105px;
+  left: 195px;
   z-index: 100;
 }
 
