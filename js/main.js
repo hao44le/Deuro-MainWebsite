@@ -53,7 +53,7 @@ jQuery(document).ready(function(event){
     section.load(url+' .cd-main-content > *', function(event){
       // load new content and replace <main> content with the new one
       $('main').html(section);
-    window.scrollTo(0,0);
+    // window.scrollTo(0,0);
       //if browser doesn't support CSS transitions - dont wait for the end of transitions
       var delay = ( transitionsSupported() ) ? 1200 : 0;
       setTimeout(function(){
