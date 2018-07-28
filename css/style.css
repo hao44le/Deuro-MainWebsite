@@ -706,7 +706,7 @@ display: none;
     margin: 14% 0 0;
     background: url(../images/hand.png) 0% 62% no-repeat #00d4d8;
     background-size: 75%;
-    box-shadow: 0 0 150px #000000a6;
+    box-shadow: 0 0 150px #64E2E8;
 }
 .nextvalbanner a{
   color:#fff;
@@ -3116,7 +3116,7 @@ position: absolute;
     margin: 6% auto 10%;
     background: url(../images/hand.png) 0% 92% no-repeat #00d4d8;
     background-size: 60%;
-    box-shadow: 0 0 150px #000000a6;
+    box-shadow: 0 0 150px #64E2E8;
 }
 .nextvalbanner a{
   color:#fff;
