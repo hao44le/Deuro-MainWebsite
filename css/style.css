@@ -637,13 +637,13 @@ position: absolute;
     pointer-events: none;
     top: 50%;
     left: 50%;
-    margin-left: -126px;
-    margin-top: -115px;
+    margin-left: -70px;
+    margin-top: -75px;
     -webkit-transform: translatey(0px);
     transform: translatey(0px);
     -webkit-animation: float 6s ease-in-out infinite;
     animation: float 6s ease-in-out infinite;
-    width: 248px;
+    width: 150px;
     height: 350px;
     z-index: 2;
     text-align: center;
@@ -723,9 +723,9 @@ display: none;
 .nextsubbanner{
     width: 100%;
     margin: 14% 0 0;
-    background:url(../images/key.png)top center no-repeat #1b3ed3;
+    background:url(../images/key.png)top center no-repeat #64E2E8;
     background-size: 40%;
-    box-shadow: 0 0 150px #000000a6;
+    box-shadow: 0 0 150px #64E2E8;
 }
 .nextsubbanner a{
   color:#fff;
@@ -3076,9 +3076,9 @@ position: absolute;
 .nextsubbanner{
     width: 70%;
     margin: 6% auto 10%;
-    background:url(../images/key.png)top center no-repeat #1b3ed3;
+    background:url(../images/key.png)top center no-repeat #64E2E8;
     background-size: 40%;
-    box-shadow: 0 0 150px #000000a6;
+    box-shadow: 0 0 150px #64E2E8;
 }
 .nextsubbanner a{
   color:#fff;
