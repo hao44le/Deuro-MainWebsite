@@ -1,0 +1,111 @@
+.project-item {
+    margin-bottom: 20px;
+}
+.project-item .project-image {
+    -moz-box-sizing: border-box;
+    list-style: none outside none;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition:  all 0.4s ease 0s;
+    -ms-transition:   all 0.4s ease 0s;
+    -o-transition:    all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.project-item .details h2 {
+    border: 0 none;
+    display: block;
+}
+.project-item .details p {
+    border-top: 1px solid #DDDDDD;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 3px;
+}
+
+.details p span {
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-left: 2px;
+}
+.project-image .overlay {
+    -moz-box-sizing: border-box;
+    background-clip: padding-box;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    -webkit-transition: opacity 0.4s ease-in-out 0s;
+    -moz-transition:  opacity 0.4s ease-in-out 0s;
+    -ms-transition:   opacity 0.4s ease-in-out 0s;
+    -o-transition:    opacity 0.4s ease-in-out 0s;
+    transition: opacity 0.4s ease-in-out 0s;
+    width: 100%;
+}
+.project-image:hover .overlay {
+    opacity: 1;
+}
+.project-item .overlay h2 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding: 0;
+    transition: all 0.4s ease 0s;
+    margin-top: 5px;
+}
+
+.project-item .overlay h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding: 0;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    margin-top: 0px;
+}
+
+.project-item .overlay > h2 a {
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.project-item .overlay > h3 a {
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.project-item .overlay:hover > h2 a {
+    opacity: 1;
+}
+.project-item .overlay h2 {
+    color: #FFFFFF;
+}
+
+.project-item .overlay h3 {
+    color: #FFFFFF;
+}
+.project-item .overlay a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.project-item .overlay em {
+    color: #FFFFFF;
+}
+.project-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    transition: all 0.4s ease-out 0s;
+}
+.project-item:hover img {
+    transform: scale(1.1);
+}
+
+.section{
+    padding: 150px 0;
+    position: relative;
+}

@@ -1,3 +1,7 @@
+.no-click {
+    pointer-events: none;
+}
+
 /* --------------------------------
 
 Primary style
@@ -452,6 +456,13 @@ width: 100%;
     text-align: left;
   margin-top: -5%;
 }
+.direction1{
+      width: 100%;
+    float: none;
+    padding: 0;
+    text-align: left;
+  margin-top: -5%;
+}
 .strategy{
       width: 100%;
     float: none;
@@ -459,7 +470,21 @@ width: 100%;
     text-align: left;
   margin-top: -5%;
 }
+.strategy1{
+      width: 100%;
+    float: none;
+    padding: 0;
+    text-align: left;
+  margin-top: -5%;
+}
 .design{
+      width: 100%;
+    float: none;
+    padding: 0;
+    text-align: left;
+  margin-top: -5%;
+}
+.design1{
       width: 100%;
     float: none;
     padding: 0;
@@ -987,7 +1012,7 @@ padding: 16% 6% 16% 6%;
     box-shadow: 0px 0px 115px #000000a6;
 }
 .clients img{
-  width: 82%;
+  width: 90%;
 }
 .clients h2{
     color: #fff;
@@ -2951,6 +2976,7 @@ width: 45%;
   font-size: 20px;
   line-height: 38px;
 }
+
 .wires{
   padding: 0 11%;
 }
@@ -3287,7 +3313,7 @@ input[type=submit] {
     margin: 20px 0;
 }
 .clients img{
-  width: 80%;
+  width: 85%;
 }
 .clients h2{
   color:#fff;
@@ -3704,13 +3730,34 @@ width: 33%;
     text-align: left;
   margin-top: -5%;
 }
+.design1{
+      width: 44%;
+    float: left;
+    padding: 0 0 0 9.5%;
+    text-align: left;
+  margin-top: -5%;
+}
 .direction{
 width: 44%;
     float: left;
     padding: 0 0 0 9.5%;
     text-align: left;
 }
+.direction1{
+width: 44%;
+    float: left;
+    padding: 0 0 0 9.5%;
+    text-align: left;
+}
 .strategy{
+    width: 44%;
+    float: right;
+    padding: 0 9.5% 0 0;
+    text-align: right;
+  margin: 50% 0 0 0;
+  position: relative;
+}
+.strategy1{
     width: 44%;
     float: right;
     padding: 0 9.5% 0 0;
