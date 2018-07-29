@@ -35,7 +35,7 @@
     height: 100%;
     opacity: 0;
     overflow: hidden;
-    padding: 20px;
+    padding: 0;
     position: absolute;
     top: 0;
     -webkit-transition: opacity 0.4s ease-in-out 0s;
@@ -43,7 +43,7 @@
     -ms-transition:   opacity 0.4s ease-in-out 0s;
     -o-transition:    opacity 0.4s ease-in-out 0s;
     transition: opacity 0.4s ease-in-out 0s;
-    width: 100%;
+    width: 80%;
 }
 .project-image:hover .overlay {
     opacity: 1;
@@ -97,7 +97,7 @@
 .project-item img {
     display: block;
     height: auto;
-    max-width: 100%;
+    max-width: 70%;
     position: relative;
     transition: all 0.4s ease-out 0s;
 }
