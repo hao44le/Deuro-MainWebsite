@@ -1,6 +1,4 @@
-a { color: #4ABCDD; }
-
-a:hover { color:#2B88A3;}
+a { color: #FFFFFF; }
 
 #open-nav.nav-half{
     background-color: #4ABCDD;
@@ -51,10 +49,6 @@ a:hover { color:#2B88A3;}
 
 .item-overlay{
     background-color: #4ABCDD;
-}
-
-.project-image:hover .overlay {
-    background-color: rgba(100, 226, 232, 0.85);
 }
 
 .masonry-post-more:hover,
