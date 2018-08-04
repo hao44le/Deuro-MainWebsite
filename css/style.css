@@ -1221,6 +1221,15 @@ color: #fff;
     font-size: 10vw;
     letter-spacing: -1px;
 }
+
+.abouttext h4{
+    color: #fff;
+    font-family: SofiaPro-SemiBold;
+    text-align: center;
+    font-weight: normal;
+    font-size: 10vw;
+    letter-spacing: -1px;
+}
 .abouttext p{
     color: #fff;
     text-align: center;
@@ -3815,6 +3824,15 @@ padding: 0 7% 15%;
   height: 100%;
 }
 .abouttext h2{
+  color:#fff;
+  font-family:SofiaPro-SemiBold;
+  text-align: center;
+  font-weight: normal;
+  font-size: 5vw;
+  letter-spacing: -1px;
+}
+
+.abouttext h4{
   color:#fff;
   font-family:SofiaPro-SemiBold;
   text-align: center;
