@@ -1023,6 +1023,16 @@ padding: 16% 6% 16% 6%;
     letter-spacing: -1px;
     margin-bottom: 27px;
 }
+
+.clients h1{
+    color: #fff;
+    font-family: SofiaPro-SemiBold;
+    text-align: center;
+    font-weight: normal;
+    font-size: 9vw;
+    letter-spacing: -1px;
+    margin-bottom: 27px;
+}
 .workpic{
   width: 100%;
   float: none;
@@ -3329,6 +3339,16 @@ input[type=submit] {
   text-align: center;
   font-weight: normal;
   font-size: 3vw;
+  letter-spacing: -1px;
+  margin-bottom: 60px;
+}
+
+.clients h1{
+  color:#fff;
+  font-family:SofiaPro-SemiBold;
+  text-align: center;
+  font-weight: normal;
+  font-size: 5vw;
   letter-spacing: -1px;
   margin-bottom: 60px;
 }
