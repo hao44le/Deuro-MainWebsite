@@ -3,7 +3,7 @@ planeySize = function () {
     var plane = $("#plane");
     var newImage = new Image();
     newImage.src = plane.attr("src");
-    var imgWidth = 310;
+    var imgWidth = 160;
     
     // distance over which zoom effect takes place
     var maxScrollDistance = 1000;
@@ -12,7 +12,7 @@ planeySize = function () {
     maxScrollDistance = Math.min(maxScrollDistance, $(window).height());
     
     // width at maximum zoom out (i.e. when window has scrolled maxScrollDistance)
-    var widthAtMax = 250;
+    var widthAtMax = 200;
     
     // calculate diff and how many pixels to zoom per pixel scrolled
     var widthDiff = imgWidth - widthAtMax;

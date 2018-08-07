@@ -28,6 +28,7 @@
   <link rel="stylesheet" media="screen" href="css/bootstrap.css" />
   <!--color stylesheet -->
   <link rel="stylesheet" href="css/colors/color-blue.css" title="blue">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 
 <body>
@@ -39,7 +40,11 @@
   <main>
     <div class="cd-index cd-main-content">
       <div class="heady">
-        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"/></a></div>
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+        </div>
         <div class="navitems">
           <div class="navcolumn">
             <h2>Home</h2>
@@ -77,27 +82,54 @@
       <a class="leftylink cd-btn" href="http://sys.deuro.io" target="_blank">Live Demo</a>
       <a class="rightylink cd-btn" href="https://t.me/deuroio_english" target="_blank">Contact US</a>
       <!-- <div class="footleft"> -->
-        <!-- <a href="white-paper/Deuro_august1st_english.pdf" target="_blank">White Paper</a> -->
+      <!-- <a href="white-paper/Deuro_august1st_english.pdf" target="_blank">White Paper</a> -->
       <!-- </div> -->
       <div class="footright">
-        <a href="https://t.me/deuroio_english" target="_blank"><img src="images/icon/telegram.png"></a>
+        <a href="https://t.me/deuroio_english" target="_blank">
+          <img src="images/icon/telegram.png">
+        </a>
         <br></br>
-        <a href="https://github.com/DeuroIO" target="_blank"><img src="images/icon/github.png"></a>
+        <a href="https://github.com/DeuroIO" target="_blank">
+          <img src="images/icon/github.png">
+        </a>
         <br></br>
-        <a href="https://twitter.com/deuroio" target="_blank"><img src="images/icon/twitter.png"></a>
+        <a href="https://twitter.com/deuroio" target="_blank">
+          <img src="images/icon/twitter.png">
+        </a>
         <br></br>
         <br></br>
-        <a href="images/wechat/WechatIMG201.jpeg" target="_blank"><i class="fab fa-weixin fa-2x"></i></a>
+        <a href="images/wechat/WechatIMG201.jpeg" target="_blank">
+          <i class="fab fa-weixin fa-2x"></i>
+        </a>
         <br></br>
       </div>
-      <div class="leftbar"></div>
+      <div class="leftbar">
+        <div class="lang-box">
+          <!-- <div class="custom-select" style="width: 30px;height: 30px;margin-left: 40px">
+            <select class="lang-box" onchange="location = this.options[this.selectedIndex].value;">
+              <option value="0"></option>
+              <option value="1" selected><a class="translate" id="en">EN</a></option>
+              <option value="2"><a class="translate" id="ch">CH</a></option>
+              <option value="3" class="translate" id="c">JA</option>
+              <option value="4" class="translate" id="h">RU</option>
+              <option value="5" class="translate" id="ci">RU</option>
+            </select>
+          </div> -->
+          <a class="translate" id="en">EN</a>
+          <a class="translate" id="chn">CHN</a>
+          <a class="translate" id="jpn">JPN</a>
+          <a class="translate" id="rus">RUS</a>
+          <a class="translate" id="kor">KOR</a>
+        </div>
+      </div>
       <div class="rightbar"></div>
       <div class="planewrap">
-        <img id="plane" class="planey" src="images/plane_meitu_2.png" width="100%" alt="" />
-        <img class="planeymob" src="images/plane_meitu_2.png" width="100%" alt="" />
+        <img id="plane" class="planey" src="images/plane_meitu_2.png" width="70%" alt="" />
+        <img class="planeymob" src="images/plane_meitu_2.png" width="60%" alt="" />
       </div>
       <div class="wrapper homery">
-        <div class="banner"><a name="top"></a>
+        <div class="banner">
+          <a name="top"></a>
           <div class="bannertxt">
             <div class="bannersplat">
               <div class="scotty">
@@ -118,29 +150,37 @@
         </div>
         <div class="about">
           <div class="abouttext">
-            <h2 class="hideme">Decentralized Tensorflow</h2>
-            <p class="hideme">Deuro turns trival PoW hash computation into critical AI matrix gradient descent. It makes AI technology accessible, intelligent, dynamic, and evolutionary.</p>
+            <h2 class="hideme lang" key="Decentralized">Decentralized Tensorflow</h2>
+            <p class="hideme">Deuro turns trival PoW hash computation into critical AI matrix gradient descent. It makes AI technology accessible,
+              intelligent, dynamic, and evolutionary.</p>
           </div>
 
           <!-- Features -->
-          <div class="clients" id="features">
+          <div class="clients underline-box" id="features">
             <h1>Deuro's Features</h1>
           </div>
           <div class="skillz group">
             <div class="direction">
-              <div class="skillzpic hideme"><img src="images/Intelligence.svg" width="" height="" alt="" /></div>
+              <div class="skillzpic hideme">
+                <img src="images/Intelligence.svg" width="" height="" alt="" />
+              </div>
               <div class="fluid skilly"></div>
               <h3 class="hideme">Intelligence</h3>
-              <p class="hideme">Various intelligent AI powered by machine learning algorithms which run by miners around the world, and distributed on decentralized protocol.</p>
+              <p class="hideme">Various intelligent AI powered by machine learning algorithms which run by miners around the world, and distributed
+                on decentralized protocol.</p>
             </div>
             <div class="strategy">
-              <div class="skillzpic2 hideme"><img src="images/trust.svg" width="" height="" alt="" /></div>
+              <div class="skillzpic2 hideme">
+                <img src="images/trust.svg" width="" height="" alt="" />
+              </div>
               <div class="fluid skillyright"></div>
               <h3 class="hideme">Trustworthiness</h3>
               <p class="hideme">Trustless consensus with very low latency and high accuracy.</p>
             </div>
             <div class="design">
-              <div class="skillzpic hideme"><img src="images/reunion.svg" width="" height="" alt="" /></div>
+              <div class="skillzpic hideme">
+                <img src="images/reunion.svg" width="" height="" alt="" />
+              </div>
               <div class="fluid skilly"></div>
               <h3 class="hideme">Multi-Agent</h3>
               <p class="hideme">AI is not singular, but able to interact and collaborate on thermodynamic network.</p>
@@ -148,45 +188,63 @@
           </div>
           <div class="skillz group bg">
             <div class="direction">
-              <div class="skillzpic hideme"><img src="images/decentralized.svg" width="" height="" alt="" /></div>
+              <div class="skillzpic hideme">
+                <img src="images/decentralized.svg" width="" height="" alt="" />
+              </div>
               <div class="fluid skilly"></div>
               <h3 class="hideme">Decentralization</h3>
               <p class="hideme">Scalable combination of sequential and parallel computing on abundant nodes.</p>
             </div>
             <div class="strategy">
-              <div class="skillzpic2 hideme"><img src="images/hammer.svg" width="" height="" alt="" /></div>
+              <div class="skillzpic2 hideme">
+                <img src="images/hammer.svg" width="" height="" alt="" />
+              </div>
               <div class="fluid skillyright"></div>
               <h3 class="hideme">Fairness</h3>
-              <p class="hideme">Free trading of data, computing power and AI models. Every contributing participant can benefit from Deuro’s revolutionary economic incentive model.</p>
+              <p class="hideme">Free trading of data, computing power and AI models. Every contributing participant can benefit from Deuro’s
+                revolutionary economic incentive model.</p>
             </div>
             <div class="design">
-              <div class="skillzpic hideme"><img src="images/democratic.svg" width="" height="" alt="" /></div>
+              <div class="skillzpic hideme">
+                <img src="images/democratic.svg" width="" height="" alt="" />
+              </div>
               <div class="fluid skilly"></div>
               <h3 class="hideme">Democratization</h3>
-              <p class="hideme">Seamless AI-human, AI-AI cooperation powered by Deuro’s unique decentralized protocal and economic incentive model.</p>
+              <p class="hideme">Seamless AI-human, AI-AI cooperation powered by Deuro’s unique decentralized protocal and economic incentive
+                model.
+              </p>
             </div>
           </div>
         </div>
 
         <!-- Problems -->
-        <div class="clients" id="problems">
+        <div class="clients underline-box" id="problems">
           <h1>Industry Problems</h1>
         </div>
         <div class="skillz group">
           <div class="direction">
-            <div class="skillzpic hideme"><img src="images/problems/mining.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic hideme">
+              <img src="images/problems/mining.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skilly"></div>
             <h3 class="hideme">Blockchain: PoW Trival Computation</h3>
-            <p class="hideme">At the heart of PoW consensus algorithm, Bitcoin miners are doing meaningless for loop iteration to solve the byzantine general question</p>
+            <p class="hideme">At the heart of PoW consensus algorithm, Bitcoin miners are doing meaningless for loop iteration to solve the
+              byzantine general question</p>
           </div>
           <div class="strategy">
-            <div class="skillzpic2 hideme"><img src="images/problems/gpu.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic2 hideme">
+              <img src="images/problems/gpu.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skillyright"></div>
             <h3 class="hideme">AI: High GPU Cost</h3>
-            <p class="hideme">While AI is taking off, the price of NVIDA, AWS GPU instance or Google Cloud is still unaffordable for many AI researchers.</p>
+            <p class="hideme">While AI is taking off, the price of NVIDA, AWS GPU instance or Google Cloud is still unaffordable for many AI
+              researchers.
+            </p>
           </div>
           <div class="design">
-            <div class="skillzpic hideme"><img src="images/problems/ground_truth.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic hideme">
+              <img src="images/problems/ground_truth.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skilly"></div>
             <h3 class="hideme">AI: Lack of the Ground Truth</h3>
             <p class="hideme">It's known as the fact that Ground Truth (aka training data) is the key to the success of the supervised model.</p>
@@ -194,18 +252,25 @@
         </div>
         <div class="skillz group">
           <div class="direction">
-            <div class="skillzpic hideme"><img src="images/problems/privacy.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic hideme">
+              <img src="images/problems/privacy.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skilly"></div>
             <h3 class="hideme">AI: Production Data Privacy & Security</h3>
+            <!-- <p class="hideme">BridgeWater💰 worries about their recording security, and Zoom🦄 worries about their audio privacy.</p> -->
           </div>
           <div class="strategy">
-            <div class="skillzpic2 hideme"><img src="images/problems/accuracy.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic2 hideme">
+              <img src="images/problems/accuracy.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skillyright"></div>
             <h3 class="hideme">AI: Low Model Precression And Recall Rate</h3>
             <p class="hideme">Many of the AI models have fairly low precression and recall rate and high False Positive/False Negative score</p>
           </div>
           <div class="design">
-            <div class="skillzpic hideme"><img src="images/problems/money.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic hideme">
+              <img src="images/problems/money.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skilly"></div>
             <h3 class="hideme">AI: Low Monetization Rate</h3>
             <p class="hideme">Today AI relies on Advertisement to commercialize. We will solve this problem by our innovative token economy</p>
@@ -213,44 +278,61 @@
         </div>
 
         <!-- Solutions -->
-        <div class="clients" id="solutions">
+        <div class="clients underline-box" id="solutions">
           <h1>Deuro's Solutions</h1>
         </div>
         <div class="skillz group">
           <div class="direction">
-            <div class="skillzpic hideme"><img src="images/solutions/network.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic hideme">
+              <img src="images/solutions/network.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skilly"></div>
             <h3 class="hideme">Vectority Network: High Performance GPU AI Mining</h3>
-            <p class="hideme">PoW -> Vectority. Miners will be able to join the mining pool and perform scientific AI matrix gradient descent computation</p>
+            <p class="hideme">PoW -> Vectority. Miners will be able to join the mining pool and perform scientific AI matrix gradient descent
+              computation
+            </p>
           </div>
           <div class="strategy">
-            <div class="skillzpic2 hideme"><img src="images/solutions/route.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic2 hideme">
+              <img src="images/solutions/route.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skillyright"></div>
             <h3 class="hideme">Crosschain Mapping: Offchain Mining, Onchain Settlement</h3>
             <p class="hideme">We will scale the blockchain by offloading GPU heavy-lifting to sidechain, then settles on the mainchain</p>
           </div>
           <div class="design">
-            <div class="skillzpic hideme"><img src="images/solutions/spider.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic hideme">
+              <img src="images/solutions/spider.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skilly"></div>
             <h3 class="hideme">AI gCrawl: Algo-Generated Training Data Solution</h3>
-            <p class="hideme">Fault-tolerant distributed high-performance data crawling system, simplified model decoding path and transfer learning for model parameters to finish the feedback loop.</p>
+            <p class="hideme">Fault-tolerant distributed high-performance data crawling system, simplified model decoding path and transfer
+              learning for model parameters to finish the feedback loop.</p>
           </div>
         </div>
         <div class="skillz group">
           <div class="direction">
-            <div class="skillzpic hideme"><img src="images/solutions/storage.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic hideme">
+              <img src="images/solutions/storage.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skilly"></div>
             <h3 class="hideme">AI gStorage: Privacy-Preseving Data Privacy & Security solution</h3>
-            <p class="hideme">The distributed end-to-end encrypted solution to store/retrieve the training data, the production prediction data, and the model files.</p>
+            <p class="hideme">The distributed end-to-end encrypted solution to store/retrieve the training data, the production prediction
+              data, and the model files.</p>
           </div>
           <div class="strategy">
-            <div class="skillzpic2 hideme"><img src="images/solutions/prediction.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic2 hideme">
+              <img src="images/solutions/prediction.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skillyright"></div>
             <h3 class="hideme">AI gPredict: Decentralized gradient learning framework</h3>
-            <p class="hideme">An innovative way to train/evaluate/test the model performance on the blockchain. gPredict includes floating point mapping, hyper-parameters routing, and decoding results reducing.</p>
+            <p class="hideme">An innovative way to train/evaluate/test the model performance on the blockchain. gPredict includes floating
+              point mapping, hyper-parameters routing, and decoding results reducing.</p>
           </div>
           <div class="design">
-            <div class="skillzpic hideme"><img src="images/solutions/coding.svg" width="" height="" alt="" /></div>
+            <div class="skillzpic hideme">
+              <img src="images/solutions/coding.svg" width="" height="" alt="" />
+            </div>
             <div class="fluid skilly"></div>
             <h3 class="hideme">AI gCompute: Internet-scale AI dApps solution</h3>
             <p class="hideme">The gCompute module is scalable, controllable, difficulty, maintainable, responsive and concurrent.</p>
@@ -261,8 +343,9 @@
         <div class="workintrocont" id="engineer_team">
           <div class="workintrobox">
             <h2>R&D Division</h2>
-            <p>Deuro has the top engineer team in Silicon Valley.They are champion at Apple Hackathon, scholarship winner from Apple WWDC, professor and lab leaders from top U.S. computer science schools, Scientists from Microsoft Research, Talents from
-              High-IQ society Mensa, Special guest from Apple WWDC.</p>
+            <p>Deuro has the top engineer team in Silicon Valley.They are champion at Apple Hackathon, scholarship winner from
+              Apple WWDC, professor and lab leaders from top U.S. computer science schools, Scientists from Microsoft Research,
+              Talents from High-IQ society Mensa, Special guest from Apple WWDC.</p>
           </div>
           <div class="clients">
             <h2>Engineers & Scientists background</h2>
@@ -281,7 +364,8 @@
                           <img src="images/gray.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Grey Chen</h3><h2>Founder</h2>
+                              <h3>Grey Chen</h3>
+                              <h2>Founder</h2>
                               <p>
                                 <span>AISense, Apple, Skylight Investment</span>
                               </p>
@@ -289,11 +373,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -302,19 +386,21 @@
                           <img src="images/he.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Prof He Wang</h3><h2>Chief AI Scientist</h2>
+                              <h3>Prof He Wang</h3>
+                              <h2>Chief AI Scientist</h2>
                               <p>
-                                <span>CS Prof @ Purdue University, Research Lab Leader @ Purdue AI Simba Lab, Research Scientist @ Microsoft, Phd @ UIUC, BS @ Tsinghua University, MS @ Duke University</span>
+                                <span>CS Prof @ Purdue University, Research Lab Leader @ Purdue AI Simba Lab, Research Scientist
+                                  @ Microsoft, Phd @ UIUC, BS @ Tsinghua University, MS @ Duke University</span>
                               </p>
                             </div>
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -323,19 +409,21 @@
                           <img src="images/kate.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Prof Aniket Kate</h3><h2>Chief Crypto Scientist</h2>
+                              <h3>Prof Aniket Kate</h3>
+                              <h2>Chief Crypto Scientist</h2>
                               <p>
-                                <span>CS Prof @ Purdue University, Research Crypto since 2012, Published dozens of blockchain papers, thousands of citations </span>
+                                <span>CS Prof @ Purdue University, Research Crypto since 2012, Published dozens of blockchain papers,
+                                  thousands of citations </span>
                               </p>
                             </div>
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
 
 
@@ -350,7 +438,8 @@
                           <img src="images/siyuan.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Dr. Siyuan Cao</h3><h2>AI Research Scientist</h2>
+                              <h3>Dr. Siyuan Cao</h3>
+                              <h2>AI Research Scientist</h2>
                               <p>
                                 <span>CS Phd @ Purdue University, Research Scientist @ Microsoft</span>
                               </p>
@@ -358,11 +447,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -371,7 +460,8 @@
                           <img src="images/haleema.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Dr. Haleema Sadia</h3><h2>AI Research Scientist</h2>
+                              <h3>Dr. Haleema Sadia</h3>
+                              <h2>AI Research Scientist</h2>
                               <p>
                                 <span>CS Phd @ Purdue Univeristy</span>
                               </p>
@@ -379,11 +469,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -392,7 +482,8 @@
                           <img src="images/habiba.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Dr. Habiba Farrukh</h3><h2>AI Research Scientist</h2>
+                              <h3>Dr. Habiba Farrukh</h3>
+                              <h2>AI Research Scientist</h2>
 
                               <p>
                                 <span>CS Phd @ Purdue Univeristy</span>
@@ -401,11 +492,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
 
 
@@ -422,7 +513,8 @@
                           <img src="images/yubo.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Dr. Yubo Shao</h3><h2>AI Software Engineer</h2>
+                              <h3>Dr. Yubo Shao</h3>
+                              <h2>AI Software Engineer</h2>
                               <p>
                                 <span>CS Phd @ Purdue University</span>
                               </p>
@@ -430,11 +522,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -443,7 +535,8 @@
                           <img src="images/tinghan.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Dr. Tinghan Yang</h3><h2>AI Software Engineer</h2>
+                              <h3>Dr. Tinghan Yang</h3>
+                              <h2>AI Software Engineer</h2>
                               <p>
                                 <span>CS Phd @ Purdue Univeristy</span>
                               </p>
@@ -451,11 +544,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -464,7 +557,8 @@
                           <img src="images/hire.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>You?</h3><h2>Chief AI Officer?</h2>
+                              <h3>You?</h3>
+                              <h2>Chief AI Officer?</h2>
                               <p>
                                 <span></span>
                               </p>
@@ -472,11 +566,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
 
                 </div>
@@ -491,8 +585,10 @@
 
           <div class="workintrobox" id="marketing_team">
             <h2>PR & Community Division</h2>
-            <p>Our professional marketing team has been building the marketing bridge to connect the two largest economies in the world. They have been doing strategic integrated marketing plans for ETS, Macy’s, China UnionPay, Alibaba and BMW China and
-              other recognizable brands in U.S. and China. In 2018, our team won the Best Use of Digital Award of the Year from PR Week.</p>
+            <p>Our professional marketing team has been building the marketing bridge to connect the two largest economies in
+              the world. They have been doing strategic integrated marketing plans for ETS, Macy’s, China UnionPay, Alibaba
+              and BMW China and other recognizable brands in U.S. and China. In 2018, our team won the Best Use of Digital
+              Award of the Year from PR Week.</p>
           </div>
           <div class="clients">
             <h2>Clients & Awards</h2>
@@ -511,7 +607,8 @@
                           <img src="images/jason.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Jason Zhang</h3><h2>Co-Founder, CMO</h2>
+                              <h3>Jason Zhang</h3>
+                              <h2>Co-Founder, CMO</h2>
                               <p>
                                 <span>Amiaunion, College Daily, Indiana University</span>
                               </p>
@@ -519,11 +616,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -532,7 +629,8 @@
                           <img src="images/amber.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Amber Zheng</h3><h2>Designer</h2>
+                              <h3>Amber Zheng</h3>
+                              <h2>Designer</h2>
                               <p>
                                 <span>Amiaunion, College Daily, Indiana University</span>
                               </p>
@@ -540,11 +638,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -553,7 +651,8 @@
                           <img src="images/gigi.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Gigi Guo</h3><h2>Marketing Specialist</h2>
+                              <h3>Gigi Guo</h3>
+                              <h2>Marketing Specialist</h2>
                               <p>
                                 <span>Marketing Specialist</span>
                               </p>
@@ -561,11 +660,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                 </div>
 
@@ -578,7 +677,8 @@
                           <img src="images/yuxuan.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Yuxuan He</h3><h2>Marketing Specialist</h2>
+                              <h3>Yuxuan He</h3>
+                              <h2>Marketing Specialist</h2>
                               <p>
                                 <span>Amiaunion, Indiana University</span>
                               </p>
@@ -586,11 +686,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -599,7 +699,8 @@
                           <img src="images/ryan.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Ryan Liu</h3><h2>Marketing Specialist</h2>
+                              <h3>Ryan Liu</h3>
+                              <h2>Marketing Specialist</h2>
                               <p>
                                 <span>Amiaunion, Indiana University</span>
                               </p>
@@ -607,11 +708,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
@@ -621,7 +722,8 @@
                           <img src="images/pan.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Big Pan</h3><h2>Marketing Specialist</h2>
+                              <h3>Big Pan</h3>
+                              <h2>Marketing Specialist</h2>
                               <p>
                                 <span>Amiaunion, Indiana University</span>
                               </p>
@@ -629,11 +731,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
@@ -643,7 +745,8 @@
                           <img src="images/willson.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Wilson Liu</h3><h2>Community Specialist</h2>
+                              <h3>Wilson Liu</h3>
+                              <h2>Community Specialist</h2>
                               <p>
                                 <span>University of Southern California</span>
                               </p>
@@ -651,11 +754,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
                 </div>
                 <!-- End .row -->
               </div>
@@ -664,15 +767,15 @@
           </section>
 
 
-          <div class="workintrobox" id="investor">
+          <!-- <div class="workintrobox" id="investor">
             <h2>Investors</h2>
             <p>Deuro is backed by the top norch investors in the blockchain crypto space. Together we will change the AI and Blockchain space!</p>
-          </div>
-          <section id="credits" class="section">
-            <div class="container">
-              <div class="credits-container">
+          </div> -->
+          <!-- <section id="credits" class="section"> -->
+          <!-- <div class="container"> -->
+          <!-- <div class="credits-container"> -->
 
-                <div class="row">
+          <!-- <div class="row">
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -743,9 +846,9 @@
                   </div>
                   
 
-                </div>
+                </div> -->
 
-                <div class="row">
+          <!-- <div class="row">
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -817,10 +920,10 @@
                   </div>
                   
 
-                </div>
-                <!-- End .row -->
+                </div> -->
+          <!-- End .row -->
 
-                <div class="row">
+          <!-- <div class="row">
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
@@ -891,11 +994,11 @@
                   </div>
                   
 
-                </div>
+                </div> -->
 
-                <div class="row">
+          <!-- <div class="row"> -->
 
-                  <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+          <!-- <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
                       <div class="project-image">
                         <a target="_blank" href="">
@@ -904,8 +1007,7 @@
                           </div>
                           <div class="overlay">
                             <div class="details">
-                              <h3>MX Capital</h3>
-                              <h2>HongKong Hedge Fund</h2>
+                              <h3>MX Capital</h3><h2>HongKong Hedge Fund</h2>
                               <p>
                                 <span></span>
                               </p>
@@ -913,11 +1015,13 @@
                           </div>
                         </a>
                       </div>
+                      end .project-image
                     </div>
+                    end .project-item
                   </div> -->
-                  
 
-                  <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+
+          <!-- <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
                       <div class="project-image">
                         <a target="_blank" href="">
@@ -934,15 +1038,17 @@
                           </div>
                         </a>
                       </div>
+                      end .project-image
                     </div>
+                    end .project-item
                   </div> -->
-                  
 
-                </div>
-              </div>
-              <!-- end .container -->
-            </div>
-          </section>
+
+          <!-- </div> -->
+          <!-- </div> -->
+          <!-- end .container -->
+          <!-- </div> -->
+          <!-- </section> -->
 
 
           <div class="workintrobox" id="advisor">
@@ -959,10 +1065,11 @@
                     <div class="project-item">
                       <div class="project-image">
                         <a target="_blank" href="https://www.weibo.com/ttarticle/p/show?id=2309404227273539625575&sudaref=www.google.com&display=0&retcode=6102">
-                            <img src="images/investor/ryan_xu.png" alt=""></img>
+                          <img src="images/investor/ryan_xu.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Crypto Legend</h3><h2>Ryan Xu</h2>
+                              <h3>Crypto Legend</h3>
+                              <h2>Ryan Xu</h2>
                               <p>
                                 <span></span>
                               </p>
@@ -970,20 +1077,21 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
                       <div class="project-image">
                         <a target="_blank" href="https://www.linkedin.com/in/yu-tianyi-704924107/">
-                            <img src="images/investor/tianyi_yu.png" alt=""></img>
+                          <img src="images/investor/tianyi_yu.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Skylight Investment GP</h3><h2>Sky Yu</h2>
+                              <h3>Skylight Investment GP</h3>
+                              <h2>Sky Yu</h2>
                               <p>
                                 <span></span>
                               </p>
@@ -991,20 +1099,21 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                   <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="project-item">
                       <div class="project-image">
                         <a target="_blank" href="https://engineering.purdue.edu/Blockchain/about">
-                            <img src="images/investor/hong_wan.png" alt=""></img>
+                          <img src="images/investor/hong_wan.png" alt=""></img>
                           <div class="overlay">
                             <div class="details">
-                              <h3>Purdue Blockchain Lab</h3><h2>Prof Hong Wan</h2>
+                              <h3>Purdue Blockchain Lab</h3>
+                              <h2>Prof Hong Wan</h2>
                               <p>
                                 <span></span>
                               </p>
@@ -1012,11 +1121,11 @@
                           </div>
                         </a>
                       </div>
-                      
+
                     </div>
-                    
+
                   </div>
-                  
+
 
                 </div>
                 <!-- </div> -->
@@ -1028,13 +1137,19 @@
 
 
 
-        <div class="workclose"><img src="images/wavy2.png" width="" height="" alt="" /></div>
+        <div class="workclose">
+          <img src="images/wavy2.png" width="" height="" alt="" />
+        </div>
         <div class="contactbanner">
           <div class="contacttxt">
-            <h1 class="hideme">I've arrived, let's <a class="cd-btn" href="https://t.me/deuroio_english">talk</a></h1>
+            <h1 class="hideme">I've arrived, let's
+              <a class="cd-btn" href="https://t.me/deuroio_english">talk</a>
+            </h1>
           </div>
           <div class="bannersplatfoot">
-            <div class="canada"><img src="images/brainstorm.png" width="" height="" alt="" /></div>
+            <div class="canada">
+              <img src="images/brainstorm.png" width="" height="" alt="" />
+            </div>
             <div class="fluid">
             </div>
             <div class="fluiddark"></div>
@@ -1051,6 +1166,7 @@
   <script src="js/main.js"></script>
   <!-- Resource jQuery -->
   <script src='js/jquery.min.js'></script>
+
   <script src='js/velocity.min.js'></script>
   <script src='js/velocity.ui.min.js'></script>
   <script src='js/in-view.min.js'></script>
@@ -1060,6 +1176,7 @@
   <script src="js/wordz.js"></script>
   <script src="js/index.js"></script>
   <script src="js/plane.js"></script>
+  <script src="js/language.js"></script>
 </body>
 
 </html>

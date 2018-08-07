@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function(event){
   var isAnimating = false,
     newLocation = '';
