@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){
-  $(document).on('click','.bubble-wrap',function(){
+  $(document).on('click','.bubble-wrap1',function(){
       $(".bubble").toggleClass("active");
       $(".bubbleback").toggleClass("active");
       $(".first").toggleClass("active");

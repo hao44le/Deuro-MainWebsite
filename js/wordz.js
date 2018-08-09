@@ -8,7 +8,7 @@ startWords();
 function startWords () {
   try {
     words = document.getElementsByClassName('word');
-
+    
     currentWord = 0;
     wordArray = [];
     
@@ -29,15 +29,20 @@ function startWords () {
 function changeWord() {
   var cw = wordArray[currentWord];
   var nw = currentWord == words.length-1 ? wordArray[0] : wordArray[currentWord+1];
-  for (var i = 0; i < cw.length; i++) {
-    animateLetterOut(cw, i);
+  if(cw!=undefined){
+      for (var i = 0; i < cw.length; i++) {
+      animateLetterOut(cw, i);
+      }
   }
-  
-  for (var i = 0; i < nw.length; i++) {
-    nw[i].className = 'letter behind';
-    nw[0].parentElement.style.opacity = 1;
-    animateLetterIn(nw, i);
+
+  if(nw!=undefined){
+      for (var i = 0; i < nw.length; i++) {
+         nw[i].className = 'letter behind';
+         nw[0].parentElement.style.opacity = 1;
+        animateLetterIn(nw, i);
+      }
   }
+
   
   currentWord = (currentWord == wordArray.length-1) ? 0 : currentWord+1;
 }

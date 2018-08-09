@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function(event){
   var isAnimating = false,
     newLocation = '';
@@ -30,52 +31,52 @@ jQuery(document).ready(function(event){
   });
 
   function changePage(url, bool) {
-    isAnimating = true;
-    // trigger page animation
-    $('body').addClass('page-is-changing');
-    $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-      loadNewContent(url, bool);
-      newLocation = url;
-      $('.cd-loading-bar').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
-    });
-    //if browser doesn't support CSS transitions
-    if( !transitionsSupported() ) {
-      loadNewContent(url, bool);
-      newLocation = url;
-    }
+    // isAnimating = true;
+    // // trigger page animation
+    // $('body').addClass('page-is-changing');
+    // $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+    //   loadNewContent(url, bool);
+    //   newLocation = url;
+    //   $('.cd-loading-bar').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+    // });
+    // //if browser doesn't support CSS transitions
+    // if( !transitionsSupported() ) {
+    //   loadNewContent(url, bool);
+    //   newLocation = url;
+    // }
   }
 
   function loadNewContent(url, bool) {
-    url = ('' == url) ? 'index.html' : url;
-    var newSection = 'cd-'+url.replace('.html', '');
-    var section = $('<div class="cd-main-content '+newSection+'"></div>');
+    // url = ('' == url) ? 'index.html' : url;
+    // var newSection = 'cd-'+url.replace('.html', '');
+    // var section = $('<div class="cd-main-content '+newSection+'"></div>');
 
-    section.load(url+' .cd-main-content > *', function(event){
-      // load new content and replace <main> content with the new one
-      $('main').html(section);
-    // window.scrollTo(0,0);
-      //if browser doesn't support CSS transitions - dont wait for the end of transitions
-      var delay = ( transitionsSupported() ) ? 1200 : 0;
-      setTimeout(function(){
-        //wait for the end of the transition on the loading bar before revealing the new content
-        ( section.hasClass('cd-about') ) ? $('body').addClass('cd-about') : $('body').removeClass('cd-about');
-        startWords();
+    // section.load(url+' .cd-main-content > *', function(event){
+    //   // load new content and replace <main> content with the new one
+    //   $('main').html(section);
+    // // window.scrollTo(0,0);
+    //   //if browser doesn't support CSS transitions - dont wait for the end of transitions
+    //   var delay = ( transitionsSupported() ) ? 1200 : 0;
+    //   setTimeout(function(){
+    //     //wait for the end of the transition on the loading bar before revealing the new content
+    //     ( section.hasClass('cd-about') ) ? $('body').addClass('cd-about') : $('body').removeClass('cd-about');
+    //     startWords();
 
-        $('body').removeClass('page-is-changing');
-        $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-          isAnimating = false;
-          $('.cd-loading-bar').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
-        });
+    //     $('body').removeClass('page-is-changing');
+    //     $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+    //       isAnimating = false;
+    //       $('.cd-loading-bar').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+    //     });
 
-        if( !transitionsSupported() ) isAnimating = false;
-      }, delay);
+    //     if( !transitionsSupported() ) isAnimating = false;
+    //   }, delay);
 
-      if(url!=window.location && bool){
-        //add the new page to the window.history
-        //if the new page was triggered by a 'popstate' event, don't add it
-        window.history.pushState({path: url},'',url);
-      }
-    });
+    //   if(url!=window.location && bool){
+    //     //add the new page to the window.history
+    //     //if the new page was triggered by a 'popstate' event, don't add it
+    //     window.history.pushState({path: url},'',url);
+    //   }
+    // });
   }
 
   function transitionsSupported() {
