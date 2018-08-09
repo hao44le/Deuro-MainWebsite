@@ -1252,7 +1252,7 @@ Andy home page
 .footright {
   text-align: right;
   width: 30px;
-  bottom: 15px;
+  bottom: -30px;
   right: 11px;
   position: fixed;
   z-index: 100;
@@ -1540,6 +1540,7 @@ Andy home page
   display: flex;
   flex-direction: column;
   justify-content: center;
+  cursor: pointer;
 }
 @media screen and (max-width:767px){
   .lang-box{
@@ -1879,7 +1880,7 @@ Andy home page
   color: #7c8898;
   font-family: SofiaPro-Regular;
   font-weight: normal;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 30px;
   margin-top: 18px;
 }
@@ -2917,7 +2918,7 @@ QUERY 650px
     color: #7c8898;
     font-family: SofiaPro-Regular;
     font-weight: normal;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 35px;
     margin-top: 30px;
   }
@@ -4107,7 +4108,7 @@ QUERY 770px
     color: #7c8898;
     font-family: SofiaPro-Regular;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 35px;
     margin-top: 30px;
   }
@@ -4198,12 +4199,12 @@ QUERY 770px
   }
   .leftylink {
     left: -3px;
-    font-size: 9px;
+    font-size: 12px;
     display: block;
   }
   .rightylink {
     right: -13px;
-    font-size: 9px;
+    font-size: 11px;
     display: block;
   }
   .leftbar {
@@ -4252,7 +4253,7 @@ QUERY 770px
   .footright {
     text-align: right;
     width: 30px;
-    bottom: 30px;
+    bottom: -30px;
     right: 20px;
   }
   .footleft {
