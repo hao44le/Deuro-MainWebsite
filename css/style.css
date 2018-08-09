@@ -2091,7 +2091,7 @@ input[type=submit]:hover {
   text-align: left;
   display: block;
   margin-bottom: 0;
-  font-size: 6px;
+  font-size: 10px;
   letter-spacing: 4px;
   color: #01b9c2;
   text-transform: uppercase;
@@ -3218,7 +3218,7 @@ QUERY 650px
     text-align: left;
     display: block;
     margin-bottom: 30px;
-    font-size: 7px;
+    font-size: 11px;
     letter-spacing: 4px;
     color: #01b9c2;
     text-transform: uppercase;
@@ -3883,7 +3883,7 @@ QUERY 770px
     text-align: left;
     display: block;
     margin-bottom: 30px;
-    font-size: 7px;
+    font-size: 11px;
     letter-spacing: 4px;
     color: #01b9c2;
     text-transform: uppercase;
