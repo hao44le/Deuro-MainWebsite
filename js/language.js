@@ -1,14 +1,28 @@
 var arrLang = {
-    'en': {
-        'Decentralized': 'Decentralized Tensorflow.',
-        'about': 'About US',
-        'contact': 'Contact'
-    },
-    'chn': {
-        'Decentralized': 'Decentralized Tensorflow chines',
-        'about': 'About chines',
-        'contact': 'contact chines'
-    }
+  'en': {
+      'Decentralized': 'Decentralized Tensorflow.',
+      'about': 'About US',
+      'contact': 'Contact',
+      'tensorflow-p':'Deuro turns tribal PoW hash computation into critical AI matrix gradient descent. It makes AI technology accessible, intelligent, dynamic, and evolutionary'
+  },
+  'chn': {
+      'Decentralized': '去中心化的',
+      'about': '关于我们',
+      'contact': '联系',
+      'tensorflow-p':'Deuro将trival PoW哈希计算转换为关键的AI矩阵梯度下降。 它使AI技术易于访问，智能化，动态化和进化'
+  },
+  'jpn':{
+      'Decentralized': 'Децентрализованный тензор.',
+      'tensorflow-p':'Deuro превращает племенное вычисление HW в критический градиентный спуск матрицы AI. Это делает технологию ИИ доступной, умной, динамичной и эволюционной'
+  }
+  'rus':{
+      'Decentralized': 'Децентрализованный тензор.',
+      'tensorflow-p':'Deuro превращает племенное вычисление HW в критический градиентный спуск матрицы AI. Это делает технологию ИИ доступной, умной, динамичной и эволюционной'
+  },
+  'kor':{
+      'Decentralized': 'Децентрализованный тензор.',
+      'tensorflow-p':'Deuro превращает племенное вычисление HW в критический градиентный спуск матрицы AI. Это делает технологию ИИ доступной, умной, динамичной и эволюционной'
+  }
 };
 
 $(function () {
